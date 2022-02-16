@@ -763,7 +763,6 @@ form.oea-form li .item-input-wrap span{
 }
 
 /* sps */
-
 .inboxsub{
     border: 1px solid #3d3e42;
     border-radius: 20px;
@@ -771,15 +770,46 @@ form.oea-form li .item-input-wrap span{
 }
 
 .inboxsub .infotitle{
-    border: 10px;
-    padding: 10px 0;
-    background: #9B152F !important;
+    border-bottom: 1px solid #919192;
+    padding-bottom: 5px;
+}
+
+.inboxsub .infotitle p, .inboxsub .infotitle h3{
+    margin: 0;
+}
+
+.inboxsub .infotitle h3 span{
+    font-size: 16px;
+    color: rgb(175, 171, 171);
+    font-weight: 400;
+    margin-left: 10px;
 }
 
 .inboxsub .content h2{
     text-align: center;
     font-size: 22px;
     margin-bottom: 35px;
+}
+
+.inboxsub .buttonsd span{
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+.sps .navbar-inner .notification-bar{
+    justify-content:space-between;
+}
+
+.sps .navbar-inner .notification-bar .info{
+    float: left;
+    position: absolute;
+    left: 70px;
+}
+
+.sps .navbar-inner .media{
+    float: left;
+    margin-top: -10px;
+    padding: 0;
 }
 
 
