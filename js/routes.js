@@ -95,7 +95,7 @@ var routes = [
   },
   {
     path: '/students-profile-sub/',
-    url: './pages/students-profile-sub.html',
+    componentUrl: './pages/students-profile-sub.html',
   },
   {
     path: '/ich/',

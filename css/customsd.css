@@ -787,13 +787,14 @@ form.oea-form li .item-input-wrap span{
 
 .inboxsub .content h2{
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     margin-bottom: 35px;
 }
 
 .inboxsub .buttonsd span{
     text-transform: capitalize;
     font-weight: 200;
+    font-size: 16px;
 }
 
 .sps .navbar-inner .notification-bar{
@@ -811,6 +812,39 @@ form.oea-form li .item-input-wrap span{
     margin-top: -10px;
     padding: 0;
 }
+
+/* COMPONENT CUSTOM */
+.dialog{
+    background: transparent !important;
+}
+.dialog-inner{
+    padding: 0;
+    border-radius: 20px;
+    background: transparent;
+}
+.preloader{
+    display: none;
+}
+.dialogsd{
+    background: #fff;
+    border-radius: 20px !important;
+    border: 1px solid #E33156;
+}
+
+.dialogsd .header{
+    background: #E33156;
+    padding: 15px;
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    color: #fff !important;
+}
+
+.dialogsd .header h3{
+    margin: 0;
+    color: #fff;
+}
+
+
 
 
 
