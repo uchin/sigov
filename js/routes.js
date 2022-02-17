@@ -103,7 +103,7 @@ var routes = [
   },
   {
     path: '/ichregistration/',
-    url: './pages/ichregistration.html',
+    componentUrl: './pages/ichregistration.html',
   },
   {
     path: '/exchange/',
