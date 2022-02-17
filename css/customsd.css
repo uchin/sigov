@@ -578,6 +578,30 @@
     background: greenyellow !important;
 }
 
+.bgicons.pink {
+    background: rgb(250, 138, 207) !important;
+}
+
+.bgicons.blue {
+    background: rgb(89, 114, 197) !important;
+}
+
+.bgicons.yellow {
+    background: rgb(228, 187, 4) !important;
+}
+
+.bgicons.green {
+    background: rgb(102, 248, 114) !important;
+}
+
+.bgicons.bluesea {
+    background: rgb(111, 209, 226) !important;
+}
+
+.bgicons.darkblue {
+    background: rgb(13, 149, 173) !important;
+}
+
 .bgicons.white {
     background: #fff !important;
 }

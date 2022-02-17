@@ -83,7 +83,7 @@ var routes = [
   },
   {
     path: '/letter-sub/',
-    url: './pages/letter-sub.html',
+    componentUrl: './pages/letter-sub.html',
   },
   {
     path: '/scb/',
@@ -115,7 +115,7 @@ var routes = [
   },
   {
     path: '/secondarysupervisor/',
-    url: './pages/secondarysupervisor.html',
+    componentUrl: './pages/secondarysupervisor.html',
   },
   {
     path: '/deals/',
