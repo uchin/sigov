@@ -111,7 +111,7 @@ var routes = [
   },
   {
     path: '/oea/',
-    url: './pages/oea.html',
+    componentUrl: './pages/oea.html',
   },
   {
     path: '/secondarysupervisor/',

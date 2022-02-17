@@ -986,6 +986,16 @@ form.oea-form li .item-input-wrap span {
 
 .dialogsd img {
     margin: 30px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.dialogsd.download img {
+    margin: 30px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 /* add */
