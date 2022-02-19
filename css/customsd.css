@@ -239,9 +239,14 @@
     border: 0;
 }
 
+.item-box{
+    border: 1px solid #c2c2c2;
+}
+
 .item-box.custom {
     height: 95px;
     margin-bottom: 10px;
+    border: 1px solid #c2c2c2;
 }
 
 .swiper-slide a {
@@ -1019,6 +1024,42 @@ border: 1px solid #f2f2f2;
     margin-left: -55%;
 }
 
+.ornamenhome2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -15%;
+    margin-left: -30%;
+}
+
 .ornamenhome.pink{
     background: #FFBAC5 !important;
+}
+
+.ornamenhome2.blue{
+    background: #889AE0 !important;
+}
+
+.ornamenhome2.yellow{
+    background: #FFD84D !important;
+}
+
+.item-box .item-content, .item-box .price a{
+    color: #2E1420 !important;
+}
+
+.item-box:after{
+    background: transparent !important;
+}
+
+.item-box .item-bookmark{
+    right: 15px !important;
+    color:#9a9b9e;
+    left: auto;
+    font-size: 36px;
+}
+
+.item-box .item-bookmark i{
+    font-size: 52px;
 }
