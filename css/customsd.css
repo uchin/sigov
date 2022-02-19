@@ -143,6 +143,7 @@
 
 .page.home .page-content {
     background: transparent;
+    overflow:inherit;
 }
 
 .blockpages-home {
@@ -1006,4 +1007,18 @@ border: 1px solid #f2f2f2;
 
 .col-100x .item-category .item-info p{
     color: #000;
+}
+
+/* ornamen home */
+.ornamenhome{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 60%;
+    margin-left: -55%;
+}
+
+.ornamenhome.pink{
+    background: #FFBAC5 !important;
 }
